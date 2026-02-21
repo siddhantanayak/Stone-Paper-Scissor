@@ -8,6 +8,7 @@ const compscorepara=document.querySelector("#comp-score")
 const genCompChoice = () => {
     const options = ["stone", "paper", "scissor"]
     const randIdx = Math.floor(Math.random() * 3)
+    console.log(randIdx)
     return options[randIdx]
 }
 
